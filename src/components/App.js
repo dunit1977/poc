@@ -1,5 +1,6 @@
 import React, { useState, useEffect} from 'react';
 import TransactionSelect from "./TransactionSelect";
+import Clock from "./Clock";
 
 
 
@@ -16,6 +17,7 @@ export default function App() {
             <TransactionSelect/>
             <br/>
             <br/>
+            <Clock/>
         </div>
 
     );
