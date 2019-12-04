@@ -12,7 +12,7 @@ server.get('/', (req, res) => {
     res.send(`
     <html>
       <head>
-        <title>Sample React App</title>
+        <title>PA Cookbook</title>
       </head>
       <body>
         <div id="mountNode">${initialMarkup}</div>

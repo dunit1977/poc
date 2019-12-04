@@ -24,7 +24,9 @@
     "react-dom": "^16.12.0",
     "react-dropdown": "^1.6.4",
     "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.10"
+    "webpack-cli": "^3.3.10",
+    "prop-types": "^15.7.2",
+    "cogo-toast": "^4.1.1"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",

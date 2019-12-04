@@ -23,12 +23,11 @@ class Clock extends React.Component {
     }
     render() {
         return (
-            <p className="App-clock">
+            <p className="App-clock" style={{color: '#1a1446'}}>
                 Tell em what time it is! {this.state.time}.
             </p>
         );
     }
 }
-
 export default Clock;
 

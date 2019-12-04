@@ -9,9 +9,6 @@ const TransactionSelect = (props) => {
 
     return (
         <Dropdown isOpen={dropdownOpen} toggle={toggle}>
-            <DropdownToggle caret>
-                Transaction Select
-            </DropdownToggle>
             <DropdownMenu>
                 <DropdownItem header>Available Transactions</DropdownItem>
                 <DropdownItem>Auto Renewal</DropdownItem>
